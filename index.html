@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
     <header>
@@ -21,7 +25,9 @@
           <button onclick="diminuirFonte()">A-</button>
         </div>
         <div class="acessibilidade-fonte">
-          <button onclick="alternarContraste()">Alterar tema</button>
+          <button onclick="alternarContraste()">
+            <i class="bi bi-moon"></i>Alterar tema
+          </button>
         </div>
       </div>
       <div>
@@ -29,36 +35,38 @@
         <p class="sub-titulo">As principais notícias do dia, em um só lugar.</p>
       </div>
     </header>
-    <nav class="menu">
+    <nav class="menu" id="inicio">
       <a href="#inicio">Início</a>
       <a href="#economia">Economia</a>
       <a href="#tecnologia">Tecnologia</a>
       <a href="#esportes">Esportes</a>
-      <a href="#">Cultura</a>
+      <a href="#cultura">Cultura</a>
     </nav>
 
     <main>
-      <article id="inicio">
-        <p>Economia brasileira mostra sinais de recuperação</p>
-        <p>Publicado em 09/10/2025</p>
+      <article>
+        <h5>Economia</h5>
+        <h1 class="titulo" id="economia">
+          Economia brasileira mostra sinais de recuperação
+        </h1>
+        <p class="sub-titulo">Publicado em 09/10/2025</p>
         <div>
           <img
             src="https://cdls.org.br/wp-content/uploads/cdlce_base/2021/08/265919-redator-entregar-ate-2812-as-10heconomia-mundial-quais-sao-as-10-tendencias-para-os-proximos-anos.jpg"
             alt=""
           />
-
-          <p id="economia">
-            A economia brasileira começa a mostrar sinais promissores de
-            recuperação, impulsionada por um inesperado crescimento nas
-            exportações de morango do amor. Conhecido por seu sabor exótico e
-            pela estética única, o morango do amor, cultivado principalmente em
-            regiões como São Paulo e Minas Gerais, viu um aumento considerável
-            nas vendas internacionais nos últimos meses. A demanda crescente,
-            especialmente da Europa e dos Estados Unidos, tem ajudado a gerar
-            uma significativa movimentação econômica, resultando em uma melhora
-            nas contas externas e na geração de empregos no setor agrícola.
-          </p>
         </div>
+        <p>
+          A economia brasileira começa a mostrar sinais promissores de
+          recuperação, impulsionada por um inesperado crescimento nas
+          exportações de morango do amor. Conhecido por seu sabor exótico e pela
+          estética única, o morango do amor, cultivado principalmente em regiões
+          como São Paulo e Minas Gerais, viu um aumento considerável nas vendas
+          internacionais nos últimos meses. A demanda crescente, especialmente
+          da Europa e dos Estados Unidos, tem ajudado a gerar uma significativa
+          movimentação econômica, resultando em uma melhora nas contas externas
+          e na geração de empregos no setor agrícola.
+        </p>
         <p>
           A produção de morango do amor no Brasil, que já era um símbolo de
           inovação no cultivo frutal, começou a atrair novos mercados devido ao
@@ -82,25 +90,25 @@
           novas oportunidades no mercado global.
         </p>
       </article>
-
+      <hr />
       <article id="tecnologia">
-        <p>Tecnologia: Avanços em Inteligência Artificial</p>
-        <p>Publicado em 09/10/2025</p>
+        <h5>Tecnologia</h5>
+        <h1>Tecnologia: Avanços em Inteligência Artificial</h1>
+        <p class="sub-titulo">Publicado em 09/10/2025</p>
 
         <div>
           <img
-            src="https://br24.io/wp-content/uploads/2023/01/chatgpt.png"
+            src="https://www.comciencia.br/wp-content/uploads/2026/06/IA-nas-escolas-e-inevitavel-1-672x372.png"
             alt=""
           />
-
-          <p>
-            O avanço da inteligência artificial (IA) alcançou mais uma etapa
-            revolucionária. Em uma nova demonstração de sua incrível capacidade
-            de aprendizado e adaptação, as IAs agora são capazes de ingressar em
-            universidades e realizar tarefas acadêmicas, utilizando outras
-            inteligências artificiais para completar seus trabalhos de curso.
-          </p>
         </div>
+        <p>
+          O avanço da inteligência artificial (IA) alcançou mais uma etapa
+          revolucionária. Em uma nova demonstração de sua incrível capacidade de
+          aprendizado e adaptação, as IAs agora são capazes de ingressar em
+          universidades e realizar tarefas acadêmicas, utilizando outras
+          inteligências artificiais para completar seus trabalhos de curso.
+        </p>
 
         <p>
           Desenvolvedores e acadêmicos começaram a observar que as IAs,
@@ -134,26 +142,26 @@
           substituída por máquinas.
         </p>
       </article>
-
+      <hr />
       <article id="esportes">
-        <p>Esportes: Seleção vence semifinal por 2x1</p>
-        <p>Publicado em 09/10/2025</p>
+        <h5>Esportes</h5>
+        <h1>Esportes: Seleção vence semifinal por 2x1</h1>
+        <p class="sub-titulo">Publicado em 09/10/2025</p>
 
         <div>
           <img
             src="https://imagens.ebc.com.br/CXt8Xye-cHBQxiTettb2b0unX6M=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/selecao_brasileira_2022_pre_mundial.jpg?itok=_Hbw8MBs"
             alt=""
           />
-
-          <p>
-            O Brasil deu mais um grande passo rumo à volta à elite do futebol
-            brasileiro. Em uma partida histórica na semifinal da Série B do
-            Campeonato Brasileiro, a equipe do Brasil venceu o Vasco por 2 a 1,
-            garantindo seu lugar na final da competição e a chance de conquistar
-            a tão sonhada vaga na Série A.
-          </p>
         </div>
 
+        <p>
+          O Brasil deu mais um grande passo rumo à volta à elite do futebol
+          brasileiro. Em uma partida histórica na semifinal da Série B do
+          Campeonato Brasileiro, a equipe do Brasil venceu o Vasco por 2 a 1,
+          garantindo seu lugar na final da competição e a chance de conquistar a
+          tão sonhada vaga na Série A.
+        </p>
         <p>
           O jogo, realizado no Estádio de São Januário, foi eletrizante e cheio
           de reviravoltas. O Vasco, jogando em casa, começou a partida com muita
@@ -181,6 +189,51 @@
           Água Santa será árdua. A expectativa é que o jogo seja disputado em um
           clima de grande tensão e emoção, com ambas as equipes em busca da tão
           almejada vaga na Série A do Campeonato Brasileiro.
+        </p>
+      </article>
+      <hr />
+      <article id="cultura">
+        <h5>Cultura</h5>
+        <h1>Cultura: Festival de Cinema Nacional Bate Recorde de Público</h1>
+        <p class="sub-titulo">Publicado em 18/10/2025</p>
+        <div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5N9CEADFCw-kn5LnJqP0MQ4n4MS87mcnaxQrfvp7PrXnNaisHC9HnwzP2&s=10"
+            alt="Plateia assistindo a uma sessão de cinema ao ar livre"
+          />
+        </div>
+        <p>
+          A nona edição do Festival de Cinema Nacional encerrou neste fim de
+          semana com o maior público de sua história. Ao longo de dez dias, mais
+          de 80 mil pessoas passaram pelas salas, praças e telões instalados em
+          diferentes pontos da cidade, reunindo curtas, documentários e longas
+          de todas as regiões do país.
+        </p>
+
+        <p>
+          Entre os destaques da programação, as sessões ao ar livre foram as
+          mais concorridas. Famílias levaram cadeiras, cobertores e até garrafas
+          de café para assistir aos filmes sob o céu aberto. Os produtores
+          contam que, em algumas noites, a fila para entrar começou ainda no
+          meio da tarde, bem antes de o primeiro filme ser exibido.
+        </p>
+
+        <p>
+          O grande vencedor do festival foi um longa independente gravado no
+          interior de Minas Gerais, que acompanha a rotina de uma família de
+          artesãos e a dificuldade de manter vivas as tradições locais. O
+          diretor, estreante em longas-metragens, agradeceu a equipe no palco e
+          dedicou o prêmio aos moradores da cidade onde o filme foi rodado, que
+          participaram das filmagens como figurantes.
+        </p>
+
+        <p>
+          Para os organizadores, o sucesso mostra que existe um público ávido
+          por produções nacionais e que o acesso gratuito faz toda a diferença.
+          Já especialistas em cultura defendem que o festival seja ampliado e
+          conte com mais apoio público, para que as exibições cheguem também a
+          bairros afastados e cidades vizinhas, e não fiquem restritas ao
+          centro.
         </p>
       </article>
     </main>
