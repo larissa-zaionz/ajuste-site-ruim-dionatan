@@ -4,17 +4,19 @@
   --creme-escuro: #e4dcc8;
   --azul-escuro: #132a56;
   --borda: #eae5da;
+  --texto-suave: #6b6b6b;
+  --verde: #136408;
 }
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: var(--creme);
 }
 
 /* Cabeçalho */
 header {
-  background-color: var(--creme-escuro);
   text-align: center;
   padding: 20px;
   color: var(--azul-escuro);
@@ -52,31 +54,48 @@ header {
   background-color: var(--borda);
 }
 
-.acessibilidade button:hover {
+.titulo {
+  font-size: 50px;
+  .cherry-cream-soda-regular {
+    font-family: "Cherry Cream Soda", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
-
+.sub-titulo {
+  font-size: 15px;
+  font-weight: normal;
+  color: var(--texto-suave);
+  .sue-ellen-francisco-regular {
+    font-family: "Sue Ellen Francisco", cursive;
+    font-style: normal;
+  }
+}
 /* Menu de navegação */
-nav {
-  background-color: rgb(29, 78, 9);
-  text-align: center;
-  padding: 10px;
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  border-top: 1px solid var(--borda);
+  border-bottom: 1px solid var(--borda);
 }
-
-nav a {
-  color: white;
+.menu a {
+  padding: 14px 0;
   text-decoration: none;
-  margin: 0 10px;
+  color: var(--azul-escuro);
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
 }
 
-nav a:hover {
+.menu a:hover {
+  color: var(--verde);
 }
-
 /* Conteúdo principal */
 main {
   max-width: 800px;
   margin: 20px auto;
   padding: 15px;
-  background-color: white;
   border-radius: 5px;
 }
 
