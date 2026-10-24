@@ -55,7 +55,7 @@ header {
 }
 
 .titulo {
-  font-size: 50px;
+  font-size: 2.5rem;
   .cherry-cream-soda-regular {
     font-family: "Cherry Cream Soda", system-ui;
     font-weight: 400;
@@ -63,7 +63,7 @@ header {
   }
 }
 .sub-titulo {
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: normal;
   color: var(--texto-suave);
   .sue-ellen-francisco-regular {
@@ -84,7 +84,7 @@ header {
   text-decoration: none;
   color: var(--azul-escuro);
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: bold;
   border-bottom: 2px solid transparent;
 }
 
@@ -100,7 +100,7 @@ main {
 }
 h5 {
   color: var(--verde);
-  font-size: 15px;
+  font-size: 0.9rem;
 }
 h1 {
   color: var(--azul-escuro);
@@ -115,6 +115,7 @@ article img {
   width: 600px;
   height: 300px;
 }
+
 article p {
   color: var(--black);
   word-spacing: 6px;
@@ -130,7 +131,6 @@ footer {
   font-size: 0.9em;
 }
 
-/* Modo escuro / alto contraste */
 /* Modo escuro */
 .alto-contraste {
   --creme: #1c1b18;
