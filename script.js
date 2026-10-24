@@ -7,7 +7,7 @@ let tamanhoFonte = 100;
 const main = document.querySelector("main");
 
 function aplicarTamanho() {
-  document.body.style.fontSize = tamanhoFonte + "%";
+  document.documentElement.style.fontSize = tamanhoFonte + "%";
 
   const largura = LARGURA_BASE + ((tamanhoFonte - 100) / PASSO) * 50;
   main.style.maxWidth = Math.max(largura, LARGURA_BASE) + "px";
